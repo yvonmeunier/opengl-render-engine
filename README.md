@@ -12,3 +12,5 @@ For MacOS you must provide :
 
 
 Both folders are at the root of the project.
+
+TODO : make it so I don't have to provide a /build with a /lib/libglfw.X.dylib inside
