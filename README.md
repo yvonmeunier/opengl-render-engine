@@ -7,8 +7,8 @@ You must provide the following dlls if you want to use another compiler than g++
 - glfw3.dll in the /bin folder
 
 For MacOS you must provide :
-- libglfw.X.dylib in both /lib and /build/lib
-- libglfw3dll.a in the /lib folder
+- libglfw.X.dylib in the /bin folder 
+- libglfw3.a in the /lib folder
 
 
 Both folders are at the root of the project.

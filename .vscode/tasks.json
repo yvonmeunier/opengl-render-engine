@@ -37,11 +37,11 @@
                 "-g",
                 "-I${workspaceFolder}/include",
                 "-L${workspaceFolder}/lib",
-                "${workspaceFolder}/lib/libglfw.3.dylib",
                 "${workspaceFolder}/src/*.cpp",
                 "${workspaceFolder}/src/glad.c",
                 "-o",
                 "${workspaceFolder}/build/app",
+                "-lglfw3",
                 "-framework",
                 "OpenGL",
                 "-framework",
@@ -52,8 +52,7 @@
                 "CoreVideo",
                 "-framework",
                 "CoreFoundation",
-                "-Wno-deprecated",
-                "-Wl,-rpath,@executable_path/lib"
+                "-Wno-deprecated"
             ],
             "options": {
                 "cwd": "${fileDirname}"
